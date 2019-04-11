@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    display:border-box;
+  /*   font-family: "Helvetica Neue", Helvetica, Arial, "Apple LiGothic", 微軟正黑體, "Microsoft JhengHei", sans-serif; */
+    font-family:微軟正黑體
+  }
+  body{
+    border:solid 1px #000;
+    background-color:#38A1BA;
+    padding:40px;
+  }
+  .content{
+    border:solid #fff 2px;
+    padding:30px;
+  }
+  h1{
+    color:#EE9992;
+    font-size:50px;
+    font-weight:200;
+    text-align: center;
+    margin-top:5px;
+    margin-left:5px;
+  }
+  .title_main{
+    margin-top:-70px;
+    margin-left:-5px;
+    color:#fff;
+  }
+  hr{
+    margin-top:20px;
+    border:none;
+    border-bottom:2px solid #EE9992;
+  }
+  .work_container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  }
+  .work{
+    border:1px solid #fff;
+    width:300px;
+    height:300px;
+    border-radius: 2%;
+    margin:50px auto;
+    background-color: rgba(255,255,255, 0.8);
+  }
