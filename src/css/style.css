@@ -1,47 +1,84 @@
 *{
-    padding:0;
-    margin:0;
-    display:border-box;
-  /*   font-family: "Helvetica Neue", Helvetica, Arial, "Apple LiGothic", 微軟正黑體, "Microsoft JhengHei", sans-serif; */
-    font-family:微軟正黑體
-  }
-  body{
-    border:solid 1px #000;
-    background-color:#38A1BA;
-    padding:40px;
-  }
-  .content{
-    border:solid #fff 2px;
-    padding:30px;
-  }
-  h1{
-    color:#EE9992;
-    font-size:50px;
-    font-weight:200;
+  padding:0;
+  margin:0;
+  display:border-box;
+/*   font-family: "Helvetica Neue", Helvetica, Arial, "Apple LiGothic", 微軟正黑體, "Microsoft JhengHei", sans-serif; */
+  font-family:微軟正黑體
+}
+body{
+  background-color:#38A1BA;
+  padding:50px;
+}
+.content{
+  position: relative;
+  border:solid #3C474B 3px;
+  padding:40px;
+}
+h1{
+  color:#fff;
+  font-size:50px;
+  font-weight:200;
+  text-align: center;
+  margin-top:5px;
+  margin-left:5px;
+}
+a{
+  text-decoration: none;
+  color:#3C474B;
+}
+a h4{
+  font-weight: 500;
+}
+.title_main{
+  margin-top:-70px;
+  margin-left:-5px;
+  color:#3C474B;
+}
+hr{
+  width:200px;
+  border:none;
+  border-bottom:3px solid #3C474B;
+  margin:10px auto 10px;
+}
+.info_container{
+  position: absolute;
+  text-align: right;
+  top:45px;
+  right:40px;
+  color:#3C474B;
+}
+.codepen_container,.github_container{
+  /* border:2px solid #fff; */
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  margin-bottom: 2px;
+}
+
+.icon_codepen,.icon_github{
+  width: 20px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 768px){
+  .info_container{
+    position: static;
     text-align: center;
-    margin-top:5px;
-    margin-left:5px;
+    margin-top: 20px;
   }
-  .title_main{
-    margin-top:-70px;
-    margin-left:-5px;
-    color:#fff;
+  .codepen_container,.github_container{
+    justify-content: center;
   }
-  hr{
-    margin-top:20px;
-    border:none;
-    border-bottom:2px solid #EE9992;
-  }
-  .work_container{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-  }
-  .work{
-    border:1px solid #fff;
-    width:300px;
-    height:300px;
-    border-radius: 2%;
-    margin:50px auto;
-    background-color: rgba(255,255,255, 0.8);
-  }
+}
+.work_container{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.work{
+  border:1px solid #fff;
+  width:300px;
+  height:300px;
+  border-radius: 2%;
+  margin:25px 5px;
+  background-color: rgba(255,255,255, 0.8);
+}
