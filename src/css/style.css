@@ -6,7 +6,7 @@
   font-family:微軟正黑體
 }
 body{
-  background-color:#38A1BA;
+  background-color:#B1D5D7;
   padding:50px;
 }
 .content{
@@ -135,6 +135,16 @@ hr{
 }
 .img_work:hover{
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+.video-wrapper{
+  position: relative;
+  padding-bottom: 65.72%;  
+  overflow: hidden;
+}
+.video-wrapper iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .work h3{
   margin:2px 0;
